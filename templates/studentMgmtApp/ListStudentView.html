@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students</title>
+</head>
+<body>
+<h1> The List of students present </h1>
+<table>
+    <tr>
+        <td>studentName</td>
+        <td>studentYear</td>
+        <td>studentDept</td>
+        <td>studentClass</td>
+    </tr>
+    {% for student in studentsList %}
+    <tr>
+        <td><a href="/app/teacher/students/{{ student.id }}">{{ student.studentName }}</a> </td>
+        <td>{{ student.studentYear }}</td>
+        <td>{{ student.studentDept }}</td>
+        <td>{{ student.studentClass }}</td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
