@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <title>Student Management</title>
 </head>
+
 <body>
-<a href="/app/teacher/listStudents" >List students </a>
-<a href="/app/teacher/addtest">Add Test Scores</a>
+<div class="container">
+  <div class="jumbotron">
+    <h1>Student Management</h1>
+    <p>Register the New students and also have a look at all the students present (all four years) and also the students in each class.</p>
+  </div>
+
+</div>
+<div class="list-group" style="align-content: center">
+
+
+<a  href="/app/teacher/listStudents" class="list-group-item" style="align-content: center">List All students </a>
+<a href = "/app/teacher/addStudent" class="list-group-item">Add student</a>
+<a href = "/app/class" class="list-group-item">list students of a class</a>
+<a href="/app/teacher/addtest" class="list-group-item">Add Test Scores</a>
+    </div>
 </body>
 </html>

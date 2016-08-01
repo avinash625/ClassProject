@@ -6,14 +6,16 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <title>Register</title>
+    <title>Classes</title>
 </head>
 <body>
-<h1>Enter your details to register yourself as a teacher</h1>
-<form action="" method="post">
-    {% csrf_token %}
-    {{ form.as_table }}
-    <input type="submit" value="Register"/>
-</form>
+{% block content %}
+    <h2>Select the Class</h2>
+    <ul class="list-group">
+        {% for class in object_list %}
+            <li class="list-group-item"><a href="/app/class/{{ class.id }}/students"> {{ class.className }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}
 </body>
 </html>

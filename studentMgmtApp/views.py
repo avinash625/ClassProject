@@ -27,3 +27,12 @@ def SingleStudentDetail(request,id):
     return HttpResponse(template.render(context={"student":student}))
 
 
+def ClassStudentsView(request,id):
+    students = Student.objects.filter(studentClass=id)
+    template = get_template("studentMgmtApp/classStudents.html")
+    return HttpResponse(template.render(context = {"students":students}))
+
+
+
+def TeacherAddTestView(request,teacherid,classid):
+    classStudentsList = Student.objects.all().filter(studentClass = classid).filter(studentClass__test__testTeacher_id=  teacherid)

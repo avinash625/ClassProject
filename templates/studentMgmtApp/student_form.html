@@ -9,11 +9,12 @@
     <title>Register</title>
 </head>
 <body>
-<h1>Enter your details to register yourself as a teacher</h1>
-<form action="" method="post">
+<h1>Enter the details of the student</h1>
+
+<form action="" method="post" class="form-horizontal" role="form">
     {% csrf_token %}
-    {{ form.as_table }}
-    <input type="submit" value="Register"/>
+    {{ form.as_ul }}
+    <input  class="btn btn-default" type="submit" value="Register"/>
 </form>
 </body>
 </html>
