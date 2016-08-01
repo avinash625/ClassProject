@@ -78,12 +78,12 @@ WSGI_APPLICATION = 'ClassProject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': "classProject",
-        "USER":"root",
-        "PASSWORD":"password",
-        "HOST":"localhost",
-        "PORT":"3306"
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': "da6kctgfibe7qn",
+        "USER":"eibgfhsmrriafv",
+        "PASSWORD":"vfiPSno7THkuEL302ozyjmUUIQ",
+        "HOST":"ec2-54-225-117-56.compute-1.amazonaws.com",
+        "PORT":"5432"
     }
 }
 
