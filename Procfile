@@ -1,1 +1,1 @@
-web: gunicorn studentMgmtApp.wsgi --log-file -
+web: gunicorn ClassProject.wsgi --log-file -
