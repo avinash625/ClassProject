@@ -25,4 +25,4 @@ class viewClasses(ListView):
 class CreateClass(CreateView):
     model = Class
     fields = ["className","classYear"]
-    success_url  = ""
+    success_url  = "$"
