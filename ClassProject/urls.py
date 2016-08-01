@@ -20,6 +20,5 @@ import studentMgmtApp
 from studentMgmtApp import urls
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-
     url(r'',include(urls)),
 ]
