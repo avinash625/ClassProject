@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4afbbc67-4ab6-4944-81a2-5bf9a2fbda7f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClassProject/urls.py" afterPath="$PROJECT_DIR$/ClassProject/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/studentMgmtApp/ListStudentView.html" afterPath="$PROJECT_DIR$/templates/studentMgmtApp/ListStudentView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/studentMgmtApp/SingleStudentDetail.html" afterPath="$PROJECT_DIR$/templates/studentMgmtApp/SingleStudentDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/studentMgmtApp/TeacherHomeView.html" afterPath="$PROJECT_DIR$/templates/studentMgmtApp/TeacherHomeView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/studentMgmtApp/classStudents.html" afterPath="$PROJECT_DIR$/templates/studentMgmtApp/classStudents.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/studentMgmtApp/class_list.html" afterPath="$PROJECT_DIR$/templates/studentMgmtApp/class_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/studentMgmtApp/liststudents.html" afterPath="$PROJECT_DIR$/templates/studentMgmtApp/liststudents.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/studentMgmtApp/student_form.html" afterPath="$PROJECT_DIR$/templates/studentMgmtApp/student_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/studentMgmtApp/teacher_form.html" afterPath="$PROJECT_DIR$/templates/studentMgmtApp/teacher_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studentMgmtApp/classViews.py" afterPath="$PROJECT_DIR$/studentMgmtApp/classViews.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studentMgmtApp/urls.py" afterPath="$PROJECT_DIR$/studentMgmtApp/urls.py" />
     </list>
     <ignored path="ClassProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,6 +36,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studentMgmtApp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClassProject/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,14 +68,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/studentMgmtApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="264">
+              <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classViews.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studentMgmtApp/classViews.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_form.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/studentMgmtApp/class_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student_form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/studentMgmtApp/student_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,12 +131,10 @@
         <option value="$PROJECT_DIR$/studentMgmtApp/inputDB.py" />
         <option value="$PROJECT_DIR$/templates/studentMgmtApp/TeacherCreateView.html" />
         <option value="$PROJECT_DIR$/studentMgmtApp/models.py" />
-        <option value="$PROJECT_DIR$/studentMgmtApp/classViews.py" />
         <option value="$PROJECT_DIR$/studentMgmtApp/views.py" />
         <option value="$PROJECT_DIR$/ClassProject/settings.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/ClassProject/wsgi.py" />
-        <option value="$PROJECT_DIR$/studentMgmtApp/urls.py" />
         <option value="$PROJECT_DIR$/templates/studentMgmtApp/class_list.html" />
         <option value="$PROJECT_DIR$/templates/studentMgmtApp/teacher_form.html" />
         <option value="$PROJECT_DIR$/templates/studentMgmtApp/SingleStudentDetail.html" />
@@ -111,6 +144,9 @@
         <option value="$PROJECT_DIR$/templates/studentMgmtApp/ListStudentView.html" />
         <option value="$PROJECT_DIR$/templates/studentMgmtApp/liststudents.html" />
         <option value="$PROJECT_DIR$/templates/studentMgmtApp/classStudents.html" />
+        <option value="$PROJECT_DIR$/studentMgmtApp/urls.py" />
+        <option value="$PROJECT_DIR$/studentMgmtApp/classViews.py" />
+        <option value="$PROJECT_DIR$/templates/studentMgmtApp/class_form.html" />
       </list>
     </option>
   </component>
@@ -797,16 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/studentMgmtApp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/studentMgmtApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -814,14 +840,6 @@
           <folding>
             <element signature="e#0#67#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studentMgmtApp/classViews.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,14 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/studentMgmtApp/student_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/studentMgmtApp/SingleStudentDetail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -913,14 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/studentMgmtApp/TeacherHomeView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="81" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/studentMgmtApp/liststudents.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -937,13 +939,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/studentMgmtApp/TeacherHomeView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="81" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/studentMgmtApp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="264">
+          <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentMgmtApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentMgmtApp/classViews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/studentMgmtApp/student_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/studentMgmtApp/class_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
