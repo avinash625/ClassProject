@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4afbbc67-4ab6-4944-81a2-5bf9a2fbda7f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/studentMgmtApp/TeacherHomeView.html" afterPath="$PROJECT_DIR$/templates/studentMgmtApp/TeacherHomeView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClassProject/urls.py" afterPath="$PROJECT_DIR$/ClassProject/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studentMgmtApp/urls.py" afterPath="$PROJECT_DIR$/studentMgmtApp/urls.py" />
     </list>
     <ignored path="ClassProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +39,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/studentMgmtApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="88">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -47,7 +48,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeacherHomeView.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClassProject/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeacherHomeView.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/studentMgmtApp/TeacherHomeView.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
@@ -107,16 +118,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classViews.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/studentMgmtApp/classViews.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="class_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/studentMgmtApp/class_list.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -154,7 +155,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/studentMgmtApp/urls.html" />
-        <option value="$PROJECT_DIR$/ClassProject/urls.py" />
         <option value="$PROJECT_DIR$/studentMgmtApp/admin.py" />
         <option value="$PROJECT_DIR$/studentMgmtApp/inputDB.py" />
         <option value="$PROJECT_DIR$/templates/studentMgmtApp/TeacherCreateView.html" />
@@ -166,13 +166,14 @@
         <option value="$PROJECT_DIR$/templates/studentMgmtApp/student_form.html" />
         <option value="$PROJECT_DIR$/templates/studentMgmtApp/classStudents.html" />
         <option value="$PROJECT_DIR$/studentMgmtApp/classViews.py" />
-        <option value="$PROJECT_DIR$/studentMgmtApp/urls.py" />
         <option value="$PROJECT_DIR$/studentMgmtApp/views.py" />
         <option value="$PROJECT_DIR$/templates/studentMgmtApp/class_list.html" />
         <option value="$PROJECT_DIR$/ClassProject/settings.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/ClassProject/wsgi.py" />
         <option value="$PROJECT_DIR$/templates/studentMgmtApp/TeacherHomeView.html" />
+        <option value="$PROJECT_DIR$/studentMgmtApp/urls.py" />
+        <option value="$PROJECT_DIR$/ClassProject/urls.py" />
       </list>
     </option>
   </component>
@@ -847,16 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClassProject/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="e#645#686#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/studentMgmtApp/inputDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -944,16 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/studentMgmtApp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClassProject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -998,6 +979,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentMgmtApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassProject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           <folding />
         </state>
       </provider>
